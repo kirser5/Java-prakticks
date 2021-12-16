@@ -1,0 +1,180 @@
+.box4 {
+  background: #243f5c; /* Цвет фона */
+  width: 620px; /* Ширина блока */
+  padding: 10px; /* Поля */
+  border: 2px solid #000000; /* Параметры рамки */
+}
+p {
+  font-size: 20px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+}
+.picture3682 img {
+  border-radius: 20px 20px 20px 20px;
+  border: #C0C0C0 10px solid;
+}
+.textcol {
+  border-radius: 20px 20px 20px 20px;
+  border: #C0C0C0 10px solid;
+}
+.label{
+  text-align: center;
+  font-size: 20px;
+}
+.ot{
+  margin-top: 10%;
+}
+/* html p {...}; ul > li {для выбора уровня}; */
+
+/* АДАПТАЦИЯ */
+/*
+@media screen and (max-width: 1600px) {
+
+ p{
+ margin-top: 30%;
+ font-size: 3EM;
+ height: 20%;
+}
+*/
+/* МЕНЮ НАВИГАЦИИ */
+
+.menu ul li{
+padding: 30px;
+}
+
+.menu ul > li:hover{
+background-color: #00FA9A; /* Фон обведённых кнопок */
+
+border-radius:20px 20px 20px 20px;
+}
+
+.menu ul ul > li:hover{
+background-color: #00FA9A; /* Фон обведённых кнопок меню "Ваши контакты" */
+
+border-radius:20px 20px 20px 20px;
+}
+
+.menu ul li, .menu ul{
+display: inline-block;
+}
+
+.menu ul{
+position: relative;
+margin: 0;
+padding: 0;
+width: 100vw;
+background-color: #00FFFF; /* Фон основной линии */
+
+border-radius:20px 20px 20px 20px;
+}
+
+.menu ul ul{
+display: none;
+position: absolute;
+background-color: #00FA9A; /* Фон окна "Наши контакты" */
+margin-top: 10px;
+margin-left: -10px;
+width: auto;
+z-index: 120;
+
+border-radius:20px 20px 20px 20px;
+}
+
+.menu ul a{
+color: #000000;
+text-decoration: none;
+}
+
+.menu ul ul a{
+color: #000000;
+text-decoration: none;
+}
+
+.menu li:hover ul{
+display: block;
+}
+
+.menu li:hover li{
+display: block;
+}
+
+ul li ul li {
+clear: both;
+width: auto;
+}
+/* МЕНЮ НАВИГАЦИИ */
+table.text  {
+  width:  100%; /* Ширина таблицы */
+  border-spacing: 0; /* Расстояние между ячейками */
+}
+table.text td {
+  width: 50%; /* Ширина ячеек */
+  vertical-align: top; /* Выравнивание по верхнему краю */
+}
+td.rightcol { /* Правая ячейка */
+  text-indent: 27%; /* Выравнивание по правому краю */
+}
+td.rightcol2 {
+  text-indent: 25%;
+}
+td.rightcol1 { /* Правая ячейка */
+  text-indent: 25%; /* Выравнивание по правому краю */
+}
+/*tr - строка, td - ячейка.*/
+.a{
+	box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+	display: inline-block;
+	padding: 12px 40px;
+	margin: 50px 150px;
+	border-radius: 30px;
+	background-image: linear-gradient(to left,#e66465, #9198e5);
+	border: 1px solid rgba(255,255,255,.4);
+	font-weight: 900;
+	color: white;
+}
+.a2 {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0,0,0,.1);
+  border-style: solid;
+}
+.menu {
+  position: fixed;
+  font-size: 100%;
+  left: 0;
+  top: 0;
+}
+.start {
+  padding-top: 80px;
+}
+
+/*=======================================*/
+
+@media screen and (max-width: 1600px) {
+
+  .rightcol { /* Правая ячейка */
+    text-indent: 25%; /* Выравнивание по правому краю */
+  }
+
+  .rightcol { /* Правая ячейка */
+    text-indent: 35%; /* Выравнивание по правому краю */
+  }
+}
